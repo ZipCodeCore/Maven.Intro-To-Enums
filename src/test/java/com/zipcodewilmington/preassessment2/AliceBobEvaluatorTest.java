@@ -37,6 +37,7 @@ public class AliceBobEvaluatorTest {
         Assert.assertFalse(isBob);
     }
 
+
     @Test
     public void testBob() {
         // Given

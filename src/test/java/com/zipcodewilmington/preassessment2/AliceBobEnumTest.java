@@ -35,7 +35,6 @@ public class AliceBobEnumTest {
     }
 
 
-
     @Test
     public void testAliceCatchPhrase() {
         // Given
@@ -63,6 +62,7 @@ public class AliceBobEnumTest {
         Assert.assertEquals(expected, actual);
     }
 
+
     @Test
     public void testAliceIsAlice() {
         // Given
@@ -87,6 +87,7 @@ public class AliceBobEnumTest {
         // Then
         Assert.assertFalse(outcome);
     }
+
 
 
     @Test
