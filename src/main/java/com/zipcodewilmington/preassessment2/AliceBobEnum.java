@@ -4,7 +4,7 @@ public enum AliceBobEnum {
 
 
     ALICE("ALICE", "Hey, my name is ALICE!"),
-    BOB("BOB", "Hey, my nae is BOB!");
+    BOB("BOB", "Hey, my name is BOB!");
 
     String name;
     String catchPhrase;

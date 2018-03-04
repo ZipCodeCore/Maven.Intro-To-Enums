@@ -1,4 +1,6 @@
 package com.zipcodewilmington.preassessment2;
 
-public class GenericPerson {
+public enum Person {
+
+
 }
