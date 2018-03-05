@@ -52,4 +52,7 @@ public class GenericPersonTest {
         // Then
         Assert.assertEquals(expectedBirthDate, actualName);
     }
+
+    private class Person {
+    }
 }
