@@ -2,38 +2,16 @@ package com.zipcodewilmington.preassessment2;
 
 import java.util.Date;
 
-public class Person {
-    public String name;
-    public int age;
-    public Date birthDate;
+public class Person{
+    public GenericPerson<String> name;
+    public GenericPerson<Integer> age;
+    public GenericPerson<Date> birthDate;
 
     public Person(String name, int age, Date birthDate) {
-        this.name = name;
-        this.age = age;
-        this.birthDate = birthDate;
+        this.name = new GenericPerson<String>(name);
+        this.age = new GenericPerson<Integer>(age);
+        this.birthDate = new GenericPerson<Date>(birthDate);
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Date getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
-    }
 }
