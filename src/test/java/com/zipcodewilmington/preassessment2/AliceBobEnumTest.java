@@ -36,7 +36,7 @@ public class AliceBobEnumTest {
 
 
 
-    @Test
+  @Test
     public void testAliceCatchPhrase() {
         // Given
         AliceBobEnum alice = AliceBobEnum.ALICE;
