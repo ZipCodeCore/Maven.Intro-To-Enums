@@ -9,6 +9,7 @@ import java.util.Date;
 /**
  * Created by leon on 3/4/18.
  */
+
 public class GenericPersonTest {
     private String expectedName;
     private int expectedAge;
