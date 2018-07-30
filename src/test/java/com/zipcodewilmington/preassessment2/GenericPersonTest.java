@@ -33,7 +33,6 @@ public class GenericPersonTest {
         Assert.assertEquals(expectedName, actualName);
     }
 
-
     @Test
     public void testGetAge() {
         // When
@@ -42,7 +41,6 @@ public class GenericPersonTest {
         // Then
         Assert.assertEquals(expectedAge, actualName);
     }
-
 
     @Test
     public void testGetBirthDate() {
@@ -53,3 +51,4 @@ public class GenericPersonTest {
         Assert.assertEquals(expectedBirthDate, actualName);
     }
 }
+
