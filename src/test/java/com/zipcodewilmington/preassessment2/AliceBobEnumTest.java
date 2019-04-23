@@ -76,18 +76,6 @@ public class AliceBobEnumTest {
     }
 
 
-    @Test
-    public void testAliceIsBob() {
-        // Given
-        AliceBobEnum alice = AliceBobEnum.ALICE;
-
-        // When
-        boolean outcome = alice.isBob();
-
-        // Then
-        Assert.assertFalse(outcome);
-    }
-
 
     @Test
     public void testBobIsBob() {
