@@ -110,7 +110,7 @@ public class AliceBobEnumTest {
         boolean outcome = bob.isAlice();
 
         // Then
-        Assert.assertFalse(outcome);
+        Assert.assertEquals(false, outcome);
     }
 
 
